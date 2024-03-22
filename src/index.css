@@ -1,0 +1,11 @@
+span.Resizer.vertical{
+    /* cursor: col-resize; */
+      width: 3px;
+      max-width: 10px;
+      /* background:#121212; */
+  }
+  span.Resizer.vertical:hover {
+    cursor: pointer; /* Change cursor to hand pointer on hover */
+    background: #9e9d9d;
+  }
+  

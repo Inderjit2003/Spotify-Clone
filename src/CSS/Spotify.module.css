@@ -1,0 +1,118 @@
+.p{
+    font-size: 10px ;   
+}
+.bg{
+   background-color:#121212;   
+}
+
+.leftside{
+     /* background-color: #121212;  */
+
+    /* width: 20vw;
+     margin: 3px ;
+     margin-left: 10px; */
+}
+.rightside{
+    background-color: #121212;
+    color: white;
+    /* width: 80vw;
+    margin:3px;
+    margin-right:10px;
+    border-radius:15px */
+}
+.lefttop{
+    background-color: #121212;
+    border-radius:15px;
+}
+
+.leftbottom{
+    background-color: #121212;
+    border-radius:15px;
+}
+.card{
+    width:10rem ;
+    /* background-color: #212529; */
+    background: #121212;
+}
+
+.li{
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+    
+    /* position: relative; */
+    /* display: inline-block;
+    cursor: pointer; */
+}
+
+  .li .icon {
+    fill: white;     /* Initial color with transparency for fading effect */
+    transition: fill 0.3s ease; /* Transition for fading effect */
+   
+  }  
+  .text {
+    opacity: 0.5; /* Initial opacity for fading effect */
+    transition: opacity 0.3s ease; /* Transition for fading effect */
+    margin-left: 9px;
+  }
+  .icon{
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+ 
+  .li:hover .text {
+    opacity: 1; /* Full opacity on hover */
+  }
+  .li:hover .icon {
+    /* opacity: 1; Full opacity on hover */
+  }
+  .wrap{
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: white;
+  }
+  .lib{
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .lib .icon {
+    fill: white;     /* Initial color with transparency for fading effect */
+    transition: fill 0.3s ease; /* Transition for fading effect */
+  }  
+  .lib:hover .text{
+    opacity: 1; /* Full opacity on hover */
+  }
+  .lib:hover .icon{
+    opacity: 1;
+  }
+  .plus:hover {
+    opacity: 1;
+  }
+  .plus{
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+.sider{
+  color: white; 
+}
+.container {
+  max-width: 400px;
+  min-width: 230px;
+  width: 400px; /* Default width */
+}
+.splitPane {
+  -webkit-transition: none;
+  transition: none;
+
+}
+.pcard{
+  background: linear-gradient(#121212,rgb(60, 60, 60));
+
+}
